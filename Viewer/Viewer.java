@@ -1,9 +1,12 @@
 package patterns.behavioral.strategy.solution.Viewer;
 
-import java.util.Scanner;
-
 import patterns.behavioral.strategy.solution.ComplexNumber;
-import patterns.behavioral.strategy.solution.impl.*;
+import patterns.behavioral.strategy.solution.impl.Devide;
+import patterns.behavioral.strategy.solution.impl.Multiplie;
+import patterns.behavioral.strategy.solution.impl.Operation;
+import patterns.behavioral.strategy.solution.impl.Summa;
+
+import java.util.Scanner;
 public class Viewer {
     private ComplexNumber result;
 
